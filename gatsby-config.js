@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Werner's Portifolio`,
     description: `Um Lugar onde posso mostrar o que sei, faço e penso. Seja profissional, casual ou artístico`,
-    author: `@WRomling`,
+    author: `Werner Romling`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

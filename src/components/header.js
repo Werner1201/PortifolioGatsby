@@ -11,6 +11,23 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <ul className={headerStyles.nav}>
+        <li className={headerStyles.navItem}>
+          <Link to="/blog" className={headerStyles.linklist}>
+            Blog
+          </Link>
+        </li>
+        <li className={headerStyles.navItem}>
+          <Link to="/portfolio" className={headerStyles.linklist}>
+            Portfólio
+          </Link>
+        </li>
+        <li className={headerStyles.navItem}>
+          <Link to="/about" className={headerStyles.linklist}>
+            Sobre
+          </Link>
+        </li>
+      </ul>
     </div>
   </header>
 )

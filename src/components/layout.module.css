@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagebody {
+  flex-grow: 1;
+  margin: 0 10vh;
+  min-height: 100vh;
+  max-width: 100vh;
+  padding: 0 1.0875rem 1.45rem;
+}
