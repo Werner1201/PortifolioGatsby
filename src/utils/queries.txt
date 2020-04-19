@@ -1,0 +1,34 @@
+query GetRepos {
+  github {
+    user(login: "Werner1201") {
+      repositories(orderBy: {field: NAME, direction: ASC}, last: 51) {
+        totalCount
+        edges {
+          node {
+            id
+            name
+            url
+            primaryLanguage {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+query GetUser {
+  github {
+    user(login: "Werner1201") {
+      url
+      name
+      avatarUrl
+      email
+    }
+  }
+}
+
+token76d89536b396a78d20be7ae11bcf4faf9d10e44e
