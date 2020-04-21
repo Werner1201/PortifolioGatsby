@@ -1,16 +1,16 @@
 .header {
-  background: rebeccapurple;
+  background: var(--bar);
   margin-bottom: 1.45rem;
   flex-shrink: 0;
+  transition: background 2s ease-out, color 1s ease-out;
 }
 
 .container {
   display: flex;
-  margin: 0 auto;
-  max-width: 960px;
+  margin: 0 2vw 0 8vw;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .titleH1 {
@@ -19,15 +19,24 @@
 }
 
 .link {
-  color: white;
+  color: var(--textLink);
   text-decoration: none;
 }
+
+.link:hover {
+  color: var(--linkhover);
+}
+
 .linklist {
-  color: white;
+  color: var(--textLink);
   text-align: center;
   display: flex;
   padding: 10px;
   margin: 0;
+}
+
+.linklist:hover {
+  color: var(--linkhover);
 }
 
 .nav {
@@ -40,4 +49,11 @@
 .navItem {
   float: left;
   margin: 0;
+}
+
+.menu {
+  display: flex;
+  min-width: 25vw;
+  justify-content: space-between;
+  align-items: center;
 }
