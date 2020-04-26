@@ -1,4 +1,4 @@
-query GetRepos {
+query {
   github {
     user(login: "Werner1201") {
       repositories(orderBy: {field: NAME, direction: ASC}, last: 51) {

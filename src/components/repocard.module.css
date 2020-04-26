@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card);
+  border: 5px double var(--shadow);
+  box-shadow: var(--shadow) 10px 10px 0px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.desc h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.desc p {
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.infoItem {
+  margin-bottom: 0.2rem;
+  font-size: 0.6rem;
+}
