@@ -5,24 +5,31 @@ type: "Poema"
 ---
 
 O Amor 
+
 Tornou-se tão banal
 
-O amor 
+O amor
+
 A mesma reprodução oral
 
-O amor 
+O amor
+
 Anulado o sentido filosofal
 
-O amar 
+O amar
+
 Tornar-se-á algo fácil de falar
 
-O amar 
+O amar
+
 Vazio tornou-se esse expressar
 
-O amar 
+O amar
+
 Está a clamar
 
-O amor 
+O amor
+ 
 Quer voltar a Amar 
 
 
