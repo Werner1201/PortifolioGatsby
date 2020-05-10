@@ -1,3 +1,9 @@
+let env = process.env.NODE_ENV || "development"
+
+require("dotenv").config({
+  path: `./.env.${env}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Werner's Portifolio`,
@@ -41,7 +47,7 @@ module.exports = {
         fieldName: `github`,
         url: `https://api.github.com/graphql`, //highlight-line
         headers: {
-          Authorization: `Bearer  15a4ca581932454848dd3fabad5dc1f2449d8433`,
+          Authorization: `Bearer  ${process.env.TOKEN}`,
         },
       },
     },
