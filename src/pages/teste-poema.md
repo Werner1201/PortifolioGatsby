@@ -1,12 +1,28 @@
 ---
-title: "Sweet Pandas Eating Poemas"
-date: "2017-08-21"
+title: "O clamar do Amar"
+date: "2016-08-21"
 type: "Poema"
 ---
 
-Pandas are really sweet.
+O Amor 
+Tornou-se tão banal
 
-Do Pandas eat bananas? Check out this short video that shows that yes! pandas do
-seem to really enjoy bananas!
+O amor 
+A mesma reprodução oral
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
+O amor 
+Anulado o sentido filosofal
+
+O amar 
+Tornar-se-á algo fácil de falar
+
+O amar 
+Vazio tornou-se esse expressar
+
+O amar 
+Está a clamar
+
+O amor 
+Quer voltar a Amar 
+
+

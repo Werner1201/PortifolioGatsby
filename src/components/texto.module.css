@@ -9,3 +9,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.texto p {
+  margin-left: 1vw;
+}
