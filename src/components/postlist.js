@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import PostListItem from "./postlistitem"
 // import { Container } from './styles';
 

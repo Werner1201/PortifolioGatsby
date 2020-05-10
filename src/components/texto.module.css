@@ -1,8 +1,11 @@
 .texto {
-  margin: 0 10vw;
+  margin: 0;
 }
 
 .poema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }

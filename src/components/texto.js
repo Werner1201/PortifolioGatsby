@@ -6,7 +6,7 @@ import style from "./texto.module.css"
 function Texto({ tipo, post }) {
   const estilo = tipo === "Texto" ? style.texto : style.poema
   return (
-    <div>
+    <div className={estilo}>
       <h1>{post.frontmatter.title}</h1>
       <div
         className={estilo}
