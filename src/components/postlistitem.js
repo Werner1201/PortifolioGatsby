@@ -12,8 +12,9 @@ function PostListItem({ node }) {
           {node.frontmatter.title}
           {"  "}{" "}
           <span>
-            — {`${diaMesAno[0]} de ${diaMesAno[1]} de ${diaMesAno[2]}`}
+            — {`${diaMesAno[0]} de ${diaMesAno[1]} de ${diaMesAno[2]}`} —
           </span>
+          <span>{` ${node.frontmatter.type}`}</span>
         </h3>
         <p>{node.excerpt}</p>
       </Link>
