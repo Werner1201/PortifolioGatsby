@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Texto from "../components/texto"
 import Layout from "../components/layout"
 
 export default function BlogPost({ data }) {
@@ -7,8 +8,7 @@ export default function BlogPost({ data }) {
   const tipo = post.frontmatter.type
   return (
     <Layout>
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      <Texto tipo={tipo} post={post}></Texto>
     </Layout>
   )
 }
