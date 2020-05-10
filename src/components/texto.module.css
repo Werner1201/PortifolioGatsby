@@ -13,3 +13,7 @@
 .texto p {
   margin-left: 1vw;
 }
+
+.poema p {
+  margin-bottom: 0;
+}
